@@ -1,4 +1,4 @@
-from js import document
+from pyscript import document
 
 def show_myinfo(event = None):
     name = document.getElementById("name").value
@@ -33,4 +33,5 @@ def clear_myinfo(event = None):
     result = document.getElementById("result")
     result.innerHTML = ""
     result.style.display = "none"
+
 
