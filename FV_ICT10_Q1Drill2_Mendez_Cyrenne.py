@@ -34,5 +34,3 @@ def clear_myinfo(event = None):
     result.innerHTML = ""
     result.style.display = "none"
 
-
-
